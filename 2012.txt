@@ -1,0 +1,138 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Computer Science 244: Computer Architecture
+Lecturer: Willem Bester
+Semester Test
+Moderator: McElory Hoffmann
+13 November 2012
+Time: 3 hours
+Testing by itself does not improve software quality. Test results are an
+indicator of quality, but in and of themselves, they don’t improve it. Trying
+to improve software quality by increasing the amount of testing is like
+trying to to lose weight by weighing yourself more often. What you eat
+before you step onto the scale determines how much you weigh, and the
+software development techniques you use determine how many errors
+testing will find. If want to lose weight, don’t buy a new scale; change your
+diet. If you want to improve your software, don’t test more; develop better.
+—Steve McConnell, Code Complete
+1. Read the instructions on the answer book, and fill out the cover.
+2. Write neatly in ink. If you write in pencil, you may not query your marks afterwards.
+3. You may use parts of the answer book for scribbling, but before you hand it in, draw a diagonal line
+through each each block of scribbling.
+4. Only non-programmable calculators may be used.
+5. This is a closed-book test.
+6. A list of common assembly language instructions is given on the last page.
+7. Selections from the Intel Software Developer’s Manual are available as a separate appendix.
+8. This paper consists of 12 questions on 4 pages.
+9. There are 80 marks available, but the final mark is calculated out of 75.
+Short questions
+1. (a) When is a clocked SR latch in an inconsistent state?
+[1]
+(b) How can the Z-bit of the Mic-1’s Arithmetic Logic Unit (ALU) be wired up so that it is 1 when the
+result of the ALU is zero, and 0 otherwise?[1]
+(c) Why does the pipelined Mic-4 architecture need four Memory Instruction Registers (MIRs)?[1]
+Page 1 of 4cs244
+semester test
+2012-11-13
+(d) How wide are the segment registers of the Intel IA-32 architecture?
+2. Define each of the following concepts in one sentence.
+[1]
+[7]
+(a) An edge triggered digital circuit.
+(b) Bus skew.
+(c) Write back with respect to cache memory.
+(d) Write allocate with respect to cache memory.
+(e) Internal fragmentation with respect to memory allocation.
+(f) External fragmentation with respect to memory allocation.
+(g) Static linking of object modules.
+Boolean algebra, number systems, and instruction encoding
+3. (a) Write down the definition of a Boolean algebra.
+[3]
+(b) Now, write down the statement of and prove idempotency for sums. Use only the axioms from
+the definition of a Boolean algebra, clearly indicate which axiom you have used in each step, and
+do not skip any steps.[3]
+(c) Formulate the result known as uniqueness of complement, and prove it using only your assump-
+tions and the axioms from the definition of a Boolean algebra. Clearly indicate which axiom you
+have used in each step, and do not skip any steps.[4]
+4. (a) Convert the number −13 to ieee single-precision floating-point format. Give the result as eight
+hexadecimal digits. Show your calculations.[2]
+(b) Convert the following ieee single-precision floating-point numbers from hexadecimal to decimal.
+Show your calculations.[2]
+5. Provide the machine code for the Intel assembly language instructions below, and indicate clearly
+which instruction components are present in each instruction. Use hexadecimal notation in your
+answers, and assume that the processor operates in 32-bit mode when the instructions are executed.
+(a) push dword 0x6543[2]
+(b) xadd bx, cx[3]
+(c) xor ebx, [esi+ecx*4+0x10][4]
+Long questions
+6. (a) Give the circuit for a two-input multiplexer, using only and, or, and not gates. Mark the input
+lines as D0 and D1 , the control line as C, and the output line as X.
+(b) Now, draw the same diagram, using only nor gates.
+Page 2 of 4
+[7]cs244
+semester test
+2012-11-13
+(c) Give a table that shows how to wire up the input values A and B, the electrical ground VGnd , and
+the externally regulated circuit voltage VCC so that the multiplexer computes the functions A,
+AB, and A + B, respectively.
+7. (a) The ALU of the Mic-1 does not contain explicit circuitry for computing the difference B − A of
+the inputs A and B. Yet this is possible. Briefly explain how.
+[6]
+(b) Which of the following microinstructions are illegal on the Mic-1 microarchitecture? Briefly
+explain why in each case.
+A. MDR = H + SP
+B. MDR = SP + H
+C. H = H – MDR
+D. H = MDR – H
+E. MDR = SP + MDR
+(c) The control store of a Mic-1 microarchitecture used to implement the IJVM contains two offsets,
+T and F, to which a micro-operation can branch, depending on whether the N or Z latch contains 1
+(branch to T) or 0 (branch to F). An engineer now suggests that, since the first micro-operation at T
+is exactly the same as the first micro-operation for the goto instruction, all branching instructions
+can simply branch to either goto or F instead of either T or F. Is the engineer correct? Explain
+your answer.
+8. (a) For a pipelined risc processor, which kind of dependency exists in the following instruction
+sequence?
+[5]
+R3 = R1 * R2
+R0 = R1 + R3
+(b) For a pipelined risc processor, which kind of dependency exists in the following instruction
+sequence? What technique can be used to address this problem in hardware?
+R0 = R1 * R3
+R3 = R1 + R2
+(c) Give a pseudocode example of where unchecked speculative execution can have disastrous results.
+9. (a) Are the principles of locality significant in the choice between direct-mapped cache and set-
+associative cache? Briefly discuss.[4]
+(b) Draw a diagram of the virtual address space of a typical process (i.e., running program) in Linux.
+Add some explanatory notes and explain how the brk system call is used for handling dynamic
+memory allocation.[4]
+(c) What is reentrancy and where is it significant during paging?[2]
+10. (a) Given five memory partitions of (1) 100 K, (2) 500 K, (3) 200 K, (4) 300 K, (5) 600 K, (in order),
+how would each of the first-fit and best-fit algorithms place processes of 212 K, 417 K, 112 K, and
+426 K (in this order)?
+[2]
+(b) Consider the following sequence of page references:
+1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6.
+Assuming four frames—and remembering that all frames are initially empty—how many page
+faults occur for the following replacement algorithms? Show your “calculations”.
+i. Least-recently-used (LRU).
+ii. First-in, first-out (FIFO).
+Page 3 of 4
+[2]
+[2]cs244
+semester test
+2012-11-13
+Programming questions
+11. (a) Briefly explain how the cmp and test assembly language instructions are used in tandem with
+the conditional jump instructions to perform branching.[2]
+(b) Which registers may be used by the callee, without first preserving them, under the cdecl calling
+convention?[1]
+(c) Discuss briefly whether the Intel IA-32 architecture has data types or not. Illustrate your answer
+with some examples.[3]
+12. Memory view.
+[6]
+Page 4 of 4

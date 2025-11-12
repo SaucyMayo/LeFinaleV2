@@ -1,0 +1,325 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+2018-11-17
+Opgestel deur Willem Bester
+Gemodereer deur Cornelia P. Inggs
+3h
+kantoorgebruik / office use:
+Studentenommer / Student number:
+–
+Everyone knows that debugging is twice as hard as writing a program in the first place. So if you
+are as clever as you can be when you write it, how will you ever debug it?
+—Brian W. Kernighan
+Voorskrifte / Instructions
+1. Skryf asseblief netjies en in ink. Indien u met ’n pot-
+lood skryf, mag u nie ná die tyd versoek dat u punte
+heroorweeg word nie.Please write neatly and in ink. If you write with a pen-
+cil, you may not afterwards request a reconsideration
+of your marks.
+2. U mag die keersy van enige en elke bladsy gebruik
+vir rofwerk. Indien u om enige rede antwoorde op ’n
+keersy skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer on
+a reverse, please indicate it clearly as such.
+3. Slegs nie-programmeerbare sakrekenaars word toege-
+laat gedurende die toets.Only non-programmable calculators are allowed for
+the duration of the test.
+4. Dié vraestel bestaan uit 8 vrae op 11 bladsye vir ’n
+totaal van 91 punte. 80 is volpunte.This paper consists of 8 questions on 11 pages for a
+total of 91 marks. 80 is full marks.
+Verklaring / Declaration
+Deur my handtekening in die onderstaande ruimte te plaas,
+bevestig ekBy placing my signature in the space provided, I con-
+firm
+1. dat ek die toetsreëls en -voorskrifte op hierdie bladsy
+en op die agterblad gelees het, verstaan en sal gehoor-
+saam;that I have read, understand, and will abide by the test
+rules and instructions set out on this page and on the
+rear cover;
+2. dat ek daarvan bewus is dat ’n oortreding van ’n that I am aware of that a contravention of a test rule
+toetsreël of -voorskrif daartoe kan lei dat ’n toets on- or instruction may cause a test to be declared null and
+geldig verklaar word, en selfs tot skorsing kan lei; en void, and may even lead to expulsion; and
+3. dat die besonderhede wat ek op hierdie blad verstrek
+het, waar en korrek is.
+that the particulars furnished by me on this page are
+true and correct.
+Handtekening / Signature
+Question:12345678Total
+Points:5449232416691
+Score:rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Vir elkeen van die volgende vrae, merk die kassie van
+die korrekte antwoord. Indien u dink daar is meer as
+een korrekte antwoord, kies die een wat u as die mees
+korrekte beskou.For each of the following questions, mark the box of
+the correct answer. If you think there is more than
+one correct answer, select the one you view as most
+correct.(a) Watter een van die volgende Intel-instruksies het
+geen invloed op die stapelwyser nie?Which one of the following Intel instructions has no
+effect on the stack pointer?[1]
+Which one of the following cannot be encoded in
+Mic-1 microcode?[1]
+(c) Gestel ’n proporsionele allokeringskema word ge- Suppose a proportional allocation scheme is used on
+bruik op ’n stelsel met 62 rame en twee prosesse, een a system with 62 frames, and two processes, one of
+van 10 blaaie, en een van 127. Hoeveel rame sou aan 10 pages, and one of 127 pages. How many frames
+die groot proses toegeken word?
+would be allocated to the larger process?[1]
+A call
+B cmp
+C pop
+D ret
+(b) Watter een van die volgende kan nie in Mic-1 mi-
+krokode geënkodeer word nie?
+A H = H − MDR
+A 4
+B 31
+B H = MDR − H
+C 57
+C H = H + MDR
+D H = MDR + H
+D 62
+(d) Vir ’n gepyplynde risc-verwerker, watter tipe af-
+hanklikheid bestaan tussen die volgende reeks in-
+struksies?
+For a pipelined risc processor, which kind of depe-
+dency exists in the following sequence of instruc-
+tions?
+[1]
+R1 = R2 * R3
+R4 = R5 + R1
+A RAW
+B WAR
+C WAW
+D no dependency / geen afhanklikheid
+(e) Wanneer ’n tweede-kans bladsyvervangingsalgo- When a second-chance page replacement algorithm,
+ritme, met ’n verwysings- en ’n modifieerbis (in dié with a reference and a modify bit (in this order), is
+volgorde), gebruik word, watter een van die volgende used, which one of the following page class should
+bladsyklasse behoort eerste uitgeskop te word?
+be evicted first?
+A (0, 0)
+B (0, 1)C (1, 0)
+F1enb
+D (1, 1)
+2. Beskou die RLE-stroombaandiagram in Figuur 1. Vul
+die volgende tabel in en toon hoe die RLE se beheerseine
+opgestel moet word om die gegewe funksies uit te voer.
+Function
+A+B
+A+B+1
+B−A
+−A
+F0
+ena
+inva
+Consider the ALU circuit diagram in Figure 1. Fill in
+the following table, and show how the ALU’s control
+signals must be set up to perform the given functions.
+inc
+Figuur 1: Die stroombaandiagram van ’n 1-bis RLE.
+Figure 1: The circuit diagram of a 1-bit ALU.
+Bladsy 2
+[1]
+[4]rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+3. Teken die stroombaandiagram van ’n twee-toevoer mul-
+tiplekser, en voltooi dan die volgende tabel, waarin u
+aandui hoe om die toevoerwaardes A en B, die elektriese
+grond VGnd en die ekstern-gereguleerde stroombaanla-
+ding VCC te koppel sodat ’n twee-toevoer multiplekser
+die funksies A, AB en A+ B, onderskeidelik, bereken. Die
+kontrolelyn C kies tussen D 0 en D 1 op die standaardma-
+nier.
+universiteit stellenbosch
+Draw the circuit diagram of a two-input multiplexer,
+and then, complete the following table, in which
+you show how to wire up the input values A and
+B, the electrical ground VGnd , and the externally
+regulated circuit voltage VCC so that a two-input
+multiplexer computes the functions A, AB, and A+B,
+respectively. The control line C chooses between D 0
+and D 1 in the standard way.
+A+B
+A
+Inputs
+D0
+[4]
+AB
+D1
+C
+Berekeninge / Calculations
+4. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.
+[4]
+3, 4, 1, 5, 3, 4, 2, 3, 4, 1, 5, 2
+Langsgelede gebruik / Least-recently-used (LRU)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+3
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+Langsgelede gebruik / Least-recently-used (LRU)Eerste-in, eerste-uit / First-in, first-out (FIFO)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+3
+Bladsy 3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+[5]rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+universiteit stellenbosch
+Langvrae / Long Questions
+5. (a) Teken die gepaste stroombaandiagramme, en ver-
+duidelik breedvoerig waarom D-wipkringe altyd de-
+terministies is, anders as SR-wipkringe.Draw the appropriate circuit diagrams, and explain
+in detail why D latches are always deterministic,
+unlike SR latches.[4]
+(b) Bespreek kortliks die meriete van ’n snelopdrag-
+opteller teenoor ’n oordragvooruitskou-opteller.
+Watter algemene beginsel word geïllustreer?Briefly discuss the relative merits of a ripple carry
+adder and a carry select adder. Which general prin-
+ciple is illustrated?[3]
+(c) Noem en bespreek kortliks twee strategieë om die
+uitvoerspoed van die datapad te vermeerder. Gee
+voorbeelde van hul implementering.Name and briefly discuss two strategies for increas-
+ing the speed of execution of the data path. Give
+examples of their implementation.[3]
+Bladsy 4rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+universiteit stellenbosch
+(d) Wat is die oorwegings wanneer waardes van ’n 8-bis
+geheuepoort na ’n 32-bis stamlyn gekopieer word?
+Skenk spesifiek aandag aan betekende en onbete-
+kende getalle.What are the considerations when values are copied
+from an 8-bit memory port onto a 32-bit bus? Pay
+particular attention to signed and unsigned num-
+bers.[3]
+(e) LNS-afhanklikhede word ook dikwels “ware af-
+hanklikhede” genoem. Motiveer dié karakterisering,
+met verwysing na ander instruksie-afhanklikhede,
+en sê ook wat gedoen kan word om dié ander af-
+hanklikhede te temper.RAW dependencies are also often called “true de-
+pendencies”. Motivate this characterisation, with
+reference to other instruction dependencies, and
+also say what can be done to mitigate these other
+dependencies.[4]
+Bladsy 5rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+universiteit stellenbosch
+(f) Met verwysing na spoed, bespreek kortliks die stam-
+lynuitleg op ’n tipiese Intel-gebaseerde stelsel.With reference to speed, briefly discuss the bus lay-
+out on a typical Intel-based system.[2]
+(g) Vanuit die hardeware-ontwerper se perspektief, be-
+spreek die kompromie tussen finansiële koste, werk-
+verrigting, kapasiteit en fisiese grootte.From the hardware designer’s perspective, discuss
+the tradeoffs between financial cost, performance,
+capacity, and physical size.[4]
+Bladsy 6rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+universiteit stellenbosch
+6. (a) Definieer en bespreek interne en eksterne fragmen-
+tering met verwysing na die geheueallokeringskema
+van Kernighan en Ritchie, soos in Tutoriaal 6.Define and discuss internal and external fragmen-
+tation with reference to the memory allocation
+scheme by Kernighan and Ritchie, as in Tutorial 6.[3]
+(b) Verduidelik kortliks van die konseptuele verskille
+tussen segmentering en paginering is. Noem ook
+hoe, vanuit die programmeerder se oogpunt, seg-
+menteringsfoute van pagineringsfoute verskil.Briefly explain the conceptual differences between
+segmentation and pagination. Also mention how,
+from the programmer’s perspective, segmentation
+faults differ from page faults.[3]
+(c) Verduidelik kortliks wat versparteling is.Briefly explain what thrashing is.[3]
+Bladsy 7rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+universiteit stellenbosch
+(d) Verduidelik waarom Unix-lêerstelsels nie vaste ska-
+kels na gidse toelaat nie.Explain why Unix file systems do not allow hard
+links to directories.[3]
+(e) Bespreek, vergelyk en evalueer die allokeringtrate-
+gieë verskaf deur fat aan die een kant, en Linux
+inodes aan die ander. U analise moet verwysings na
+lêergrootte, toegangstyd en fragmentering insluit.Discuss, compare, and evaluate the allocation strate-
+gies provided by fat on the one hand, and Linux
+inodes on the other. Your analysis must include ref-
+erences to file size, access time, and fragmentation.[6]
+Bladsy 8rekenaarwetenskap 244
+2018-11-17: semestertoets 2
+(f) Beskou die volgende twee kwasifilosofiese stellings:
+(i) “Om die toekoms te voorspel, sou ons wys wees
+om die verlede te ag.” (ii) “Nabyheid, in terme van
+ruimte en tyd, is beduidend.” Sonder om soos ’n
+winskoopfilosoof te klink, oorweeg krities hoe dié
+stellings van toepassing is op die ontwerp van pro-
+grammatuur en apparatuur vir geheue- en stoorplek-
+bestuur. Gebruik ruimskoots voorbeelde.
+Bladsy 9
+universiteit stellenbosch
+Consider the following two quasiphilosophical state-
+ments: (i) “To predict the future, we would be wise
+to regard the past.” (ii) “Closeness, in terms of space
+and time, is significant.” Without sounding like a
+half-price philosopher, write a critical appraisal of
+how these statements apply to the design of software
+and hardware for memory and storage management.
+Use examples liberally.
+[6]

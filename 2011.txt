@@ -1,0 +1,145 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Computer Science 244: Computer Architecture
+Lecturer: Mr W. H. K. Bester
+Semester Test
+Moderator: Dr J. Geldenhuys
+25 October 2011
+Time: 3 hours
+The programmer, like the poet, works only slightly removed from pure thought-
+stuff. He builds castles in the air, from air, creating by exertion of the imagi-
+nation. Few media of creation are so flexible, so easy to polish and rework,
+so readily capable of realizing grand conceptual structures. Yet the program
+construct, unlike the poet’s words, is real in the sense that it moves and works,
+producing visible outputs separate from the construct itself. It prints results,
+draws pictures, produces sounds, moves arms. The magic of myth and legend
+has come true in our time. One types the correct incantation on a keyboard,
+and a display screen comes to life, showing things that never were nor could
+be…. The computer resembles the magic of legend in this respect, too. If one
+character, one pause, of the incantation is not strictly in proper form, the
+magic doesn’t work. Human beings are not accustomed to being perfect, and
+few areas of human activity demand it. Adjusting to the requirement for
+perfection is, I think, the most difficult part of learning to program.
+—F. Brooks, The Mythical Man Month
+Instructions
+1. Read the instructions on the answer book carefully, and fill out the cover.
+2. Write neatly in ink.
+3. Only non-programmable calculators may be used.
+4. This is a closed-book test.
+5. A list of common assembly language instructions is given on the last page.
+6. Selections from the Intel Software Developer’s Manual are available as a separate appendix.
+7. This paper consists of 8 questions on 3 pages.
+8. There are 74 marks available, but the final mark is calculated out of 80.
+Page 1 of 3cs244
+semester test
+2011-10-25
+Short questions
+1. For each of the following questions, write down only the letter of the correct answer.
+(a) Which of the following is not a 16-bit segment register on the Intel IA-32 architecture?
+A. CS B. DS C. SS D. DI E. ES[1]
+(b) Which register is used as counter for REP prefixed instructions on the Intel IA-32 architecture?
+A. EAX B. EBX C. ECX D. EDX E. EDI[1]
+(c) Which of these instructions have no effect on the stack pointer of the Intel IA-32 architecture?
+A. call B. push C. pop D. ret E. test[1]
+(d) Which of the following is not a standard C primitive data type?
+A. boolean B. char C. double D. float E. int[1]
+(e) What is the largest a segment on the Pentium architecture can be?
+A. 64 K B. 1 MB C. 1 GB D. 4 GB E. 16 GB[1]
+2. (a) Provide the missing words in the following sentences: “In Pentium systems, the CPU generates
+a (i) addresses, which are given to the segmentation unit. For each of these addresses, the
+segmentation unit produces a (ii) address. This, in turn, is given to the paging unit, which
+generates the (iii) address in main memory.”[3]
+(b) Draw a flow-chart diagram to illustrate hardware support for relocation and limit registers.[2]
+(c) Which page sizes are allowed by the Pentium architecture?[2]
+(d) Why does Linux use a three-level paging strategy, even though the Pentium uses a two-level
+paging model?[1]
+(e) Explain the difference between internal and external fragmentation.[2]
+(f) What is meant by the term demand paging?[1]
+(g) Name three of the basic file operations provided via system calls in the Linux kernel.[3]
+Number systems and instruction encoding
+3. (a) Convert the following numbers to IEEE single-precision floating-point format. Give the results
+as eight hexadecimal digits. Show your calculations.
+i. 9
+ii. −5
+32[2]
+[2]
+(b) Convert the following IEEE single-precision floating-point numbers from hexadecimal to decimal.
+Show your calculations.
+i. 0x42e48000
+ii. 0x00800000[2]
+[2]
+4. (a) Is it possible to assemble the instruction mov ecx, [ax] successfully? Motivate your answer.
+(b) Provide the machine code for the Intel assembly language instructions below, and indicate clearly
+which instruction components are present in each instruction. Use hexadecimal notation in
+your answers, and assume that the processor operates in 32-bit mode when the instructions are
+executed.
+i. push dword 0x6543
+ii. xadd bx, cx
+iii. xor ebx, [esi+ecx*4+0x10]
+Page 2 of 3
+[2]
+[2]
+[3]
+[4]cs244
+semester test
+2011-10-25
+Long questions
+5. (a) Briefly describe the operation of a translation look-aside buffer (TLB).
+(b) Given five memory partitions of (1) 100 K, (2) 500 K, (3) 200 K, (4) 300 K, (5) 600 K, (in order),
+how would each of the first-fit and best-fit algorithms place processes of 212 K, 417 K, 112 K, and
+426 K (in this order)?
+(c) Briefly summarise the steps for handling a page fault.
+(d) Consider the following sequence of page references:
+[3]
+[2]
+[3]
+1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6.
+Assuming four frames—and remembering that all frames are initially empty—how many page
+faults occur for the following replacement algorithms? Show your “calculations”.
+i. Least-recently-used (LRU).
+ii. First-in, first-out (FIFO).
+[2]
+[2]
+6. (a) What is meant by and is the use of a file descriptor?
+(b) Briefly discuss how disk space allocation is handled in a Unix File System (UFS) inode.[2]
+[3]
+7. (a) Briefly explain the cdecl calling convention used by GCC on Linux. Include detail on parameter
+passing, return values, and register preservation.
+(b) Briefly explain how the Intel IA-32 architecture handles signed and unsigned integers.
+(c) What problems do the register file of the Intel IA-32 architecture present to the compiler writer?
+Discuss briefly with some reference to the design principles of modern computers.
+(d) Briefly discuss the difference between call-by-value and call-by-reference parameters.[4]
+8. (a) The following macro definition is contained in a C source code file:
+#define square(x) x * x
+Is this code fragile? If you say it is, provide an example that breaks the code; if you say it is not,
+provide a brief justification of why it is safe.
+(b) Examine the following C function, and determine which lines would cause compilation errors.
+In each case, write down the offending statement and explain why it is illegal.
+void foo(int n) {
+int i;
+static int k = bar();
+for (i = 0; i < n; i++) {
+int j = bar();
+printf("Hi there! (%d, %d, %d)\n", j+=2, state++, 2*k++);
+}
+j = 10;
+}[2]
+(c) The following C function is a naive and broken attempt to swap the contents of two variables.
+How can it be mended? Assuming that it is called to swap the contents of two variables a and b,
+how must this call be written for your corrected version?
+void swap(int x, int y) {
+int temp;
+temp = x;
+x = y;
+y = temp;
+}
+Page 3 of 3
+[2]
+[3]
+[3]
+[2]
+[3]

@@ -1,0 +1,287 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+12 November 2016
+Opgestel deur Willem Bester
+Gemodereer deur Cornelia P. Inggs
+3h
+Van, voorletters (KANTOORGEBRUIK)/ Surname, initials (OFFICE USE)
+Studentenommer / Student number
+Handtekening / Signature
+A ship in port is safe, but that is not what ships are built for. I want all the youngsters to sail out
+to sea and be good ships.
+—Grace Hopper
+Instruksies / Instructions
+1. Voorsien u studentenommer en handtekening in die velde
+hierbo. Met u handtekening verklaar u dat u die toetsreëls
+gehoorsaam het en dat die besonderhede wat u op dié
+bladsy verskaf het, korrek is.Provide your student number and signature in the
+fields above. By your signature you declare that you
+abided by the tests rules and that the particulars you
+have supplied on this page are correct.
+2. Hierdie is ’n toeboektoets. ’n Keuse uit die Intel-program-
+meringshandleiding is apart beskikbaar.This is a closed-book test. A selection from the Intel
+programming manual is available separately.
+3. Indien u ’n selfoon of slimtoestel by u het, skakel dit as-
+seblief af, en plaas dit langs of voor u op die lessenaar
+terwyl u skryf. Slegs nie-programmeerbare sakrekenaars
+word toegelaat.If you have a cellphone or smart device with you,
+please switch if off, and place it next to or in front
+of you on the desk while your write. Only non-
+programmable calculators are allowed.
+4. Skryf asseblief netjies en met ink. Indien u met potlood
+skryf, mag u nie ná die tyd u punte bevraagteken nie.Please write neatly and in ink. If you write in pencil,
+you may not query your marks afterwards.
+5. U mag die keersy van enige en elke bladsy gebruik vir
+rofwerk. Indien u om enige rede antwoorde op ’n keersy
+skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer
+on a reverse, please indicate it clearly as such.
+6. U mag nie die krammetjie van die vraestel verwyder nie.
+Indien u die vraestel inhandig met ’n bladsy verwyder, sal
+nul aan u toegeken word.You may not remove the staple from the paper. If
+you submit the paper with a page removed, you will
+receive zero.
+7. Dié vraestel bestaan uit 9 vrae op 11 bladsye vir ’n totaal
+van 88 punte. 80 is volpunte.This question paper consists of 9 questions on 11
+pages for a total of 88 marks. 80 is full marks.
+Question:123456789Total
+Points:46439192116688
+Score:rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Vir elkeen van die volgende vrae, merk die kassie van
+die korrekte antwoord. Indien u dink daar is meer as
+een korrekte antwoord, kies die een wat u as die mees
+korrekte beskou.For each of the following questions, mark the box of
+the correct answer. If you think there is more than
+one correct answer, select the one you view as most
+correct.(a) Watter een van die volgende Intel-instruksies het
+geen invloed op die stapelwyser nie?Which one of the following Intel instructions has no
+effect on the stack pointer?[1]
+(b) Watter een van die volgende kan nie in Mic-1 mi-
+krokode geënkodeer word nie?Which one of the following cannot be encoded in
+Mic-1 microcode?[1]
+(c) Gestel ’n proporsionele allokasieskema word gebruik
+op ’n stelsel met 62 rame en twee prosesse, een van
+10 blaaie, en een van 127. Hoeveel rame sou aan die
+groot proses toegeken word?Suppose a proportional allocation scheme is used on
+a system with 62 frames, and two processes, one of
+10 pages, and one of 127 pages. How many frames
+would be allocated to the larger process?[1]
+(d) Wanneer ’n tweede-kans bladsyvervangingsalgo- When a second-chance page replacement algorithm,
+ritme, met ’n verwysings- en ’n modifieerbis (in dié with a reference and a modify bit (in this order), is
+volgorde), gebruik word, watter een van die volgende used, which one of the following page class should
+bladsyklasse behoort eerste uitgeskop te word?
+be evicted first?[1]
+B cmp
+A call
+A H = H − MDR
+A 4
+B 31
+A (0, 0)
+C pop
+D ret
+B H = MDR − H
+C 57
+B (0, 1)
+C H = H + MDR
+D H = MDR + H
+D 62
+C (1, 0)
+D (1, 1)
+2. Definieer elkeen van die volgende terme in een sin.
+Define each of the following terms in one sentence.
+(a) Busskeefheid.Bus skew.[1]
+(b) VluggeheueVolatile memory[1]
+(c) Assosiatiewe kasgeheueAssociative cache memory[1]
+(d) RegisterherbenamingRegister renaming[1]
+(e) Verplaasbare kodeRelocatable code[1]
+Bladsy 2rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+universiteit stellenbosch
+Figuur 1: Die stroombaandiagram van ’n 1-bis reken-logika eenheid.
+Figure 1: The circuit diagram of a 1-bit arithmetic logic unit.
+(f) Kopieer-by-skryf
+3. Beskou die RLE-stroombaandiagram in Figuur 1. Deur
+die volgende tabel in te vul, toon hoe die RLE se beheer-
+seine opgestel moet word om die gegewe funksies uit te
+voer.
+Funksie/Function
+A+B
+A+B+1
+B−A
+−A
+F0
+F0
+Copy-on-write[1]
+Consider the ALU circuit diagram in Figure 1. By
+filling in the following table, show how the ALU’s
+control signals must be set up to perform the given
+functions.[4]
+ena
+enb
+inva
+inc
+Berekeninge / Calculations
+4. Veronderstel ’n rekenaarmaatskappy vervaardig ’n greep-
+adresseerbare, 32-Mibis geheueskyfie vir gebruik in ’n
+64-bis argitektuur. Antwoord die volgende vrae, en toon
+u bewerkings vir elkeen.Suppose a computer company manufactures a byte-
+addressable, 32-Mibit memory chip for use in a 64-
+bit architecture. Answer the following questions,
+and show your calculations for each.(a) Hoeveel adresse is beskikbaar op elke skyfie?How many addresses are available on each chip?[1]
+(b) Hoeveel skyfies is nodig om ’n woord te voltooi?How many chips are necessary to complete a word?[1]
+(c) Wat is minimum geheuegrootte vir dié opstelling?What is the minimum memory size for this setup?[1]
+Bladsy 3rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+5. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+universiteit stellenbosch
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.
+[4]
+3, 4, 1, 5, 3, 4, 2, 3, 4, 1, 5, 2
+Langsgelede gebruik / Least-recently-used (LRU)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+3
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.
+Langsgelede gebruik / Least-recently-used (LRU)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+3
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+[5]
+2
+Langvrae / Long Questions
+6. (a) Verduidelik kortliks die verskil tussen ’n flip-flop en
+’n wipkring.
+Bladsy 4
+Briefly explain the difference between a flip-flop and
+a latch.
+[2]rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+universiteit stellenbosch
+(b) Verduidelik hoe die Mic-1 se N- en Z-bisse bedraad
+is, en hoe hulle betrokke is by vertakking op mi-
+kroinstruksievlak.Explain how the Mic-1’s N and Z bits are wired, and
+how they are involved with branching on the mi-
+croinstruction level.[3]
+(c) Bespreek kortliks die ontwerp van die stelselbus van
+’n tipiese Intel-stelsel. Skenk spesifiek aandag aan
+die spoed van die gekoppelde komponente.Briefly discuss the design of the system bus of a typi-
+cal Intel system. Pay particular attention to the speed
+of the connected components.[3]
+(d) Noem en bespreek kortliks twee strategieë om die
+uitvoerspoed van die datapad te vermeerder.Name and briefly discuss two strategies for increas-
+ing the speed of execution of the data path.[3]
+Bladsy 5rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+universiteit stellenbosch
+(e) LNS-afhanklikhede word ook dikwels “ware af-
+hanklikhede” genoem. Motiveer dié karakterisering,
+met verwysing na ander instruksie-afhanklikhede.RAW dependencies are also often called “true de-
+pendencies”. Motivate this characterisation, with
+reference to other instruction dependencies.[3]
+(f) Motiveer en bespreek die gebruik van kasgeheue met
+betrekking tot die lokaliteitsbeginsels.Motivate and discuss the use of cache memory with
+respect to the principles of locality.[3]
+(g) Gee ’n kort voorbeeld van hoe spekulatiewe uitvoe-
+ring katastrofiese gevolge kan hê indien die stelsel-
+argitektuur nie gepaste beskerming deur hardeware
+voorsien nie.Give a brief example of how speculative execution
+can have catastrophic consequences if the system
+architecture does not provide suitable hardware pro-
+tections.[2]
+Bladsy 6rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+universiteit stellenbosch
+7. (a) Bespreek kortliks die verskil tussen segmentering
+en paginering.Briefly discuss the difference between segmentation
+and paging.[3]
+(b) Verduidelik wat die verskil tussen dinamiese bin-
+ding en dinamiese laaiing is.Explain what the difference between dynamic link-
+ing and dynamic loading is.[3]
+(c) Verduidelik kortliks wat versparteling is.Briefly explain what thrashing is.[3]
+Bladsy 7rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+universiteit stellenbosch
+(d) Omskryf kortliks die bedryf van ’n omskakeling-
+sydelingse buffer.Briefly describe the operation of a translation look-
+aside buffer.[3]
+(e) Verduidelik waarom Unix-lêerstelsels nie vaste ska-
+kels na gidse toelaat nie.Explain why Unix file systems do not allow hard
+links to directories.[3]
+Bladsy 8rekenaarwetenskap 244
+2016-11-12: semestertoets 2
+(f) Bespreek, vergelyk en evalueer die allokasiestrate-
+gieë verskaf deur fat aan die een kant, en Linux
+inodes aan die ander. U analise moet verwysings na
+lêergrootte, toegangstyd en fragmentering insluit.
+Bladsy 9
+universiteit stellenbosch
+Discuss, compare, and evaluate the allocation strate-
+gies provided by fat on the one hand, and Linux
+inodes on the other. Your analysis must include ref-
+erences to file size, access time, and fragmentation.
+[6]

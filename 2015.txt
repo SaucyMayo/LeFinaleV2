@@ -1,0 +1,301 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+13 November 2015 Opgestel deur Willem Bester
+Gemodereer deur Cornelia P. Inggs
+3h
+Naam en van / Name and surname
+Studentenommer / Student number
+Handtekening / Signature
+Thus spake the master programmer: “A well-written program is its own heaven; a poorly-
+written program is its own hell.”
+Geoffrey James, The Tao of Programming
+Instruksies / Instructions
+1. Vul u besonderhede volledig in die velde hierbo in. Met u
+handtekening verklaar u dat u die volgende reëls gehoor-
+saam het en dat die besonderhede wat u op dié bladsy
+verskaf het, korrek is.Complete your particulars in the fields above. By
+your signature you declare that abided by the follow-
+ing rules and that the particulars you have supplied
+on this page are correct.
+2. Hierdie is ’n toeboektoets. ’n Keuse uit die Intel-pro-
+grammeringshandleiding is apart beskikbaar, en ’n lys
+van algemene Intel-instruksies verskyn op bladsy 11 van
+dié vraestel.This is an closed-book test. A selection from the
+Intel programming manual is available separately,
+and a list of common Intel instructions appears on
+page 11 of this paper.
+3. Indien u ’n selfoon of slimtoestel by u het, skakel dit asse-
+blief af, en laat dit op die lessenaar voor in die toetslokaal,
+saam met u studentekaart.If you have a cellphone or smart device with you,
+please switch if off, and place it on the desk at the
+front of the test venue, with your student card.
+4. Skryf asseblief netjies en met ink. Indien u met potlood
+skryf, mag u nie ná die tyd u punte bevraagteken nie.Please write neatly and in ink. If you write in pencil,
+you may not query your marks afterwards.
+5. U mag die keersy van enige en elke bladsy gebruik vir
+rofwerk. Indien u om enige rede antwoorde op ’n keersy
+skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer
+on a reverse, please indicate it clearly as such.
+6. U mag nie die krammetjie van die vraestel verwyder nie.
+Indien u die vraestel inhandig met ’n bladsy verwyder, sal
+nul aan u toegeken word.You may not remove the staple from the paper. If
+you submit the paper with a page removed, you will
+receive zero.
+7. Dié vraestel bestaan uit 9 vrae op 11 bladsye vir ’n totaal
+van 88 punte. 80 is volpunte.This question paper consists of 9 questions on 11
+pages for a total of 88 marks. 80 is full marks.
+Question:123456789Total
+Points:752917181014688
+Score:rekenaarwetenskap 244
+2015-11-13: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Vir elkeen van die volgende vrae, omkring die letter van
+die korrekte antwoord. Indien u dink daar is meer as
+een korrekte antwoord, kies die een wat u as die mees
+korrekte beskou.For each of the following questions, encircle the letter
+of the correct answer. If you think there is more than
+one correct answer, select the one you view as most
+correct.(a) Hoeveel bisse wyd is segmentregisters op Intel-argi-
+tektuur?
+A. 8 B. 16 C. 32 D. 64How many bits wide are segment registers on Intel
+architecture?[1]
+(b) Watter een van die volgende Intel-instruksies het
+geen invloed op die stapelwyser nie?
+A. call B. push C. ret D. testWhich one of the following Intel instructions has no
+effect on the stack pointer?[1]
+(c) Wat is die grootste bladsygrootte op die Intel IA-32
+argitektuur?
+A. 4 KiB B. 4 MiB C. 4 GiB D. 4 TiBWhat is the largest page size on Intel IA-32 architec-
+ture?[1]
+(d) Watter Mic-1 register hou altyd die boonste stapel- Which Mic-1 register always keeps the stack top
+waarde aan?
+value?
+A. CPP B. LV C. SP D. TOS[1]
+(e) Watter een van die volgende kan nie in Mic-1 mi- Which one of the following cannot be encoded in
+krokode geënkodeer word nie?
+Mic-1 microcode?
+A. H = H − MDR B. H = MDR − H C. H = H + MDR D. H = MDR + H[1]
+Suppose a proportional allocation scheme is used on
+a system with 62 frames, and two processes, one of
+10 pages, and one of 127 pages. How many frames
+would be allocated to the larger process?[1]
+(g) Wanneer ’n tweede-kans bladsyvervangingsalgo- When a second-chance page replacement algorithm,
+ritme, met ’n verwysings- en ’n modifieerbis (in dié with a reference and a modify bit (in this order), is
+volgorde), gebruik word, watter een van die volgende used, which one of the following page class should
+bladsyklasse behoort eerste uitgeskop te word?
+be evicted first?
+A. (0, 0) B. (0, 1) C. (1, 0) D. (1, 1)[1]
+(a) Busskeefheid.Bus skew.[1]
+(b) Verenigde kasgeheue.Unified cache.[1]
+(c) Tekenuitbreiding.Sign extension.[1]
+(d) Interne fragmentasie met betrekking tot geheue-
+toekenning.Internal fragmentation with respect to memory al-
+location.[1]
+(f) Gestel ’n proporsionele allokasieskema word gebruik
+op ’n stelsel met 62 rame en twee prosesse, een van
+10 blaaie, en een van 127. Hoeveel rame sou aan die
+groot proses toegeken word?
+A. 4 B. 31 C. 57 D. 62
+2. Defineer elkeen van die volgende terme in een sin.
+Bladsy 2
+Define each of the following terms in one sentence.rekenaarwetenskap 244
+2015-11-13: semestertoets 2
+universiteit stellenbosch
+External fragmentation with respect to memory
+allocation.[1]
+3. Gegee vyf geheuepartisies van grootte (1) 100 K, (2) 500 K, Given five memory partitions of size (1) 100 K,
+(3) 200 K, (4) 300 K, (5) 600 K, (in orde), hoe sou elkeen (2) 500 K, (3) 200 K, (4) 300 K, (5) 600 K, (in order),
+van die eerste-passing en beste-passing algoritmes die how would each of the first-fit and best-fit algorithms
+plasing van prosesse van 212 K, 417 K, 112 K en 426 K (in place processes of 212 K, 417 K, 112 K, and 426 K (in
+dié volgorde) behartig? Neem aan dat die partisielys as this order)? Assume the partition list is kept as a circu-
+’n sirkulêre lys aangehou word. Dit wil sê, die soektog be- lar list. That is to say, the search is started every time
+gin telkens by die partisie waaruit daar tydens die vorige at the partition from which memory was allocated
+iterasie geheue toegeken is.
+during the previous iteration.[2]
+(e) Eksterne fragmentasie met betrekking tot geheue-
+toekenning.
+Berekeninge / Calculations
+Prosesgrootte / Process size
+Partisienommer vir / Partition number for
+eerste-passing / first-fit beste-passing / best-fit
+212 K
+417 K
+112 K
+426 K
+4. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.
+[4]
+4, 3, 2, 1, 4, 3, 5, 4, 3, 2, 1, 5
+Langsgelede gebruik / Least-recently-used (LRU)
+4
+3
+2
+1
+4
+3
+5
+4
+3
+2
+1
+5
+4
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+3
+2
+1
+4
+3
+5
+4
+3
+2
+1
+5
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+Langsgelede gebruik / Least-recently-used (LRU)Eerste-in, eerste-uit / First-in, first-out (FIFO)
+4
+3
+2
+1
+4
+3
+5
+4
+3
+2
+1
+5
+4
+Bladsy 3
+3
+2
+1
+4
+3
+5
+4
+3
+2
+1
+5
+[5]rekenaarwetenskap 244
+2015-11-13: semestertoets 2
+universiteit stellenbosch
+Langvrae / Long Questions
+5. (a) Verduidelik kortliks die verskil tussen ’n flip-flop en
+’n wipkring.Briefly explain the difference between a flip-flop and
+a latch.[2]
+(b) Gee die waarheidstabel vir die eksklusiewe-of ope-
+rator, en teken dan sy stroombaandiagram deur slegs
+nof-hekke te gebruik. Toon alle tussenstappe.Give the truth table for the exclusive-or operation,
+and then draw its circuit diagram, using only nor
+gates. Show all intermediary steps.[2]
+(c) Voltooi die volgende tabel, waarin u aandui hoe Complete the following table, in which you show
+om die toevoerwaardes A en B, die elektriese grond how to wire up the input values A and B, the electri-
+VGnd en die ekstern-gereguleerde stroombaanlading cal ground VGnd , and the externally regulated circuit
+VCC te koppel sodat ’n twee-toevoer multiplekser die voltage VCC so that a two-input multiplexer com-
+funksies A, AB en A + B, onderskeidelik, bereken. putes the functions A, AB, and A + B, respectively.
+Die kontrolelyn C kies tussen D 0 en D 1 op die stan- The control line C chooses between D 0 and D 1 in
+daardmanier.
+the standard way.[3]
+Inputs
+A
+D0
+A+B
+AB
+D1
+C
+(d) Noem en bespreek kortliks twee strategieë om die
+uitvoerspoed van die datapad te vermeerder.
+Bladsy 4
+Name and briefly discuss two strategies for increas-
+ing the speed of execution of the data path.
+[2]rekenaarwetenskap 244
+2015-11-13: semestertoets 2
+universiteit stellenbosch
+(e) LNS-afhanklikhede word ook dikwels “ware af-
+hanklikhede” genoem. Motiveer dié karakterisering,
+met verwysing na ander instruksie-afhanklikhede.RAW dependencies are also often called “true de-
+pendencies”. Motivate this characterisation, with
+reference to other instruction dependencies.[3]
+(f) U word aangewys as konsultant vir ’n span wat ’n
+nuwe programmeertaal en meegaande virtuele ma-
+sjien moet ontwerp; laasgenoemde sal ook as har-
+deware geïmplementeer word. Die taal is LL(1), sal
+’n rekursief-dalende vertaler hê en moet voorwaar-
+delike vertakking vir twee-komplement heelgetalle
+oor die relasionale operators =, ≠, <, ⩽, > en ⩾ onder-
+steun. Die masjienontwerp het reeds instruksies vir
+bisgewyse en, of, nie en xof. Bied nou ’n ontwerp
+aan waarin u so min as moontlik ISA-vlak instruksies
+byvoeg om dié vereistes te vervul. Vir volpunte moet
+u ontwerp gedetailleerde idees oor die betrokke di-
+gitale logika en afbeelding van ISA-instruksies na
+mikro-operasie instruksiesekwensies insluit. Oor-
+weeg alle kwessies geïmpliseer deur die vereistes.You are appointed as consultant to a team that must
+design a new programming language and associ-
+ated virtual machine; the latter will also be imple-
+mented as hardware. The language is LL(1), will have
+a recursive-descent compiler, and must support con-
+ditional branching for two’s complement integers
+over the relational operators =, ≠, <, ⩽, >, and ⩾.
+The machine design already contains instructions
+for bitwise and, or, not, and xor. Now, present a
+design in which you add as few as possible ISA-level
+instructions to accomplish these requirements. For
+fullmarks, your design has to include detailed ideas
+on the digital circuits involved and the mapping of
+ISA instructions to sequences of micro-operations.
+Consider all issues implied by the requirements.[5]
+Bladsy 5rekenaarwetenskap 244
+2015-11-13: semestertoets 2
+universiteit stellenbosch
+6. (a) Bespreek kortliks die verskil tussen segmentering
+en paginering.Briefly discuss the difference between segmentation
+and paging.[4]
+(b) Verduidelik volledig wat met aanvraagpaginering
+bedoel word. Hoe verskil dit van of stem dit ooreen
+met die gebruik van kasgeheue?Explain fully what is meant by demand paging.
+How is it the same as or different from the use of
+cache memory?[4]
+(c) Verduidelik kortliks wat versparteling is.Briefly explan what thrashing is.[2]
+Bladsy 6rekenaarwetenskap 244
+2015-11-13: semestertoets 2
+universiteit stellenbosch
+(d) Omskryf kortliks die bedryf van ’n omskakeling-
+sydelingse buffer.Briefly describe the operation of a translation look-
+aside buffer.[3]
+(e) Watter strategie word deur tipiese Unix-lêerstelsels
+gebruik om te verseker dat ’n indeksblok ’n groot
+omvang van lêergroottes en vinnige toegang toelaat,
+maar self nie te veel ruimte in beslag neem nie?Which strategy is used by a typical Unix file system
+to ensure that an index block allows a large range of
+file sizes and rapid access, but does not occupy too
+much space itself?[3]
+(f) Kan die tipiese Unix-lêerstelsel as ’n algemene gra-
+fiekgids beskou word? Bespreek kortliks, met ver-
+wysing na skakels.Can the typical Unix file system be viewed as a gen-
+eral graph directory? Discuss briefly, with reference
+to links.[2]
+Bladsy 7

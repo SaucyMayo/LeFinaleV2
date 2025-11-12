@@ -1,0 +1,319 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+2022-11-14
+Opgestel deur Willem Bester
+Gemodereer deur Lynette van Zijl
+3h
+kantoorgebruik / office use:
+Studentenommer / Student number:
+–
+The inside of a computer is as dumb as hell, but it goes like mad!
+—Richard P. Feynman
+Voorskrifte / Instructions
+1. Skryf asseblief netjies en in ink.Please write neatly and in ink.
+2. U mag die keersy van enige en elke bladsy gebruik
+vir rofwerk. Indien u om enige rede antwoorde op ’n
+keersy skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer on
+a reverse, please indicate it clearly as such.
+3. Slegs nie-programmeerbare sakrekenaars word toege-
+laat gedurende die toets.Only nonprogrammable calculators are allowed for
+the duration of the test.
+4. Daar is 8 vrae op 10 bladsye vir 88 punte, met volpunte
+bereken uit nie meer nie as 80.There are 8 questions on 10 pages for 88 marks, with
+full marks calculated out of not more than 80.
+Verklaring / Declaration
+Deur my handtekening in die onderstaande ruimte te plaas,
+bevestig ekBy placing my signature in the space provided, I con-
+firm
+1. dat ek die toetsreëls en -voorskrifte op hierdie bladsy
+en op die agterblad gelees het, verstaan en sal gehoor-
+saam;that I have read, understand, and will abide by the test
+rules and instructions set out on this page and on the
+rear cover;
+2. dat ek daarvan bewus is dat ’n oortreding van ’n that I am aware of that a contravention of a test rule
+toetsreël of -voorskrif daartoe kan lei dat ’n toets on- or instruction may cause a test to be declared null and
+geldig verklaar word, en selfs tot skorsing kan lei; en void, and may even lead to expulsion; and
+3. dat die besonderhede wat ek op hierdie blad verstrek
+het, waar en korrek is.
+that the particulars furnished by me on this page are
+true and correct.
+Handtekening / Signature
+Question:12345678Total
+Points:69716181511688
+Score:rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Vir elkeen van die volgende vrae, merk die kassie van
+die korrekte antwoord. Indien u dink daar is meer as een
+korrekte antwoord, kies die een wat u as die mees korrekte
+beskou.For each of the following questions, mark the box of
+the correct answer. If you think there is more than
+one correct answer, select the one you view as most
+correct.(a) Hoeveel bisse wyd is segmentregisters op Intel-argi-
+tektuur?How many bits wide are segment registers on Intel
+architecture?[1]
+Which one of the following Intel instructions has no
+effect on the stack pointer?[1]
+(c) Watter Mic-1 register hou altyd die boonste stapel- Which Mic-1 register always keeps the stack top
+waarde aan?
+value?[1]
+A 8
+B 16
+C 32
+D 64
+(b) Watter een van die volgende Intel-instruksies het
+geen invloed op die stapelwyser nie?
+A call
+B push
+B LV
+A CPP
+C ret
+C SP
+D test
+D TOS
+(d) Watter een van die volgende kan nie in Mic-1 mi-
+krokode geënkodeer word nie?Which one of the following cannot be encoded in
+Mic-1 microcode?[1]
+(e) Gestel ’n proporsionele allokasieskema word gebruik
+op ’n stelsel met 62 rame en twee prosesse, een van
+10 blaaie, en een van 127. Hoeveel rame sou aan die
+groot proses toegeken word?Suppose a proportional allocation scheme is used on
+a system with 62 frames, and two processes, one of
+10 pages, and one of 127 pages. How many frames
+would be allocated to the larger process?[1]
+(f) Wanneer ’n tweede-kans bladsyvervangingsalgo- When a second-chance page replacement algorithm,
+ritme, met ’n verwysings- en ’n modifieerbis (in dié with a reference and a modify bit (in this order), is
+volgorde), gebruik word, watter een van die volgende used, which one of the following page class should
+bladsyklasse behoort eerste uitgeskop te word?
+be evicted first?[1]
+A H = H − MDR
+A 4
+B 31
+A (0, 0)
+B H = MDR − H
+C 57
+C H = H + MDR
+D 62
+B (0, 1)C (1, 0)
+F1enb
+D (1, 1)
+2. (a) Beskou die RLE-stroombaandiagram hieronder regs.
+Vul die volgende tabel in en toon hoe die RLE se
+beheerseine opgestel moet word om die gegewe re-
+kenkundige funksies uit te voer.
+Function
+A+B
+A+B+1
+B−A
+−A
+F0
+ena
+D H = MDR + H
+inva
+inc
+Bladsy 2
+Consider the ALU circuit diagram below right. Fill
+in the following table, and show how the ALU’s con-
+trol signals must be set up to perform the given arith-
+metic functions.
+[4]rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+(b) Verduidelik nou u redenasie om B − A te bereken in
+die vorige vraag.
+universiteit stellenbosch
+Now explain your reasoning for calculating B − A in
+the previous question.
+(c) Voltooi die volgende tabel, waarin u aandui hoe Complete the following table, in which you show
+om die toevoerwaardes A en B, die elektriese grond how to wire up the input values A and B, the electri-
+VGnd en die ekstern-gereguleerde stroombaanlading cal ground VGnd , and the externally regulated circuit
+VCC te koppel sodat ’n twee-toevoer multiplekser die voltage VCC so that a two-input multiplexer com-
+logiese funksies A, AB en A + B, onderskeidelik, be- putes the logical functions A, AB, and A + B respec-
+reken. Die kontrolelyn C kies tussen D 0 en D 1 op tively. The control line C chooses between D 0 and
+die standaardmanier.
+D 1 in the standard way.
+A
+Inputs
+[2]
+[3]
+A+B
+AB
+D0
+D1
+C
+3. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.
+[3]
+1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
+Langsgelede gebruik / Least-recently-used (LRU)
+1
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
+1
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.
+Langsgelede gebruik / Least-recently-used (LRU)
+1
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
+Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+1
+Bladsy 3
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
+[4]rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+universiteit stellenbosch
+Langvrae / Long Questions
+4. (a) Teken die stroombaandiagram van ’n SR-wipkring
+en verduidelik dan hoe teenstrydigheid tot nie-
+determinisme lei.Draw the circuit diagram for an SR latch, and then
+explain how inconsistency leads to nondetermin-
+ism.[4]
+(b) Bespreek twee verskillende benaderings tot die pa-
+rallelisering van ’n 1-bis volopteller in terme van
+koste en werkverrigting.Discuss two different approaches to the parallelisa-
+tion of a 1-bit full adder in terms of cost and perfor-
+mance.[4]
+(c) Met verwysing na die 32-bis RLE wat in die Mic-1
+argitektuur gebruik word – sien die 1-bis weergawe
+in Vraag 2(a) – verduidelik hoe die implementasie
+van ISA-instruksies vir relasionele operators soos =
+en ⩽ benader moet word.With reference to the 32-bit ALU used in the Mic-1
+architecture – see the 1-bit version in Question 2(a)
+– explain how the implementation of ISA instruc-
+tions for relational operators like = and ⩽ should be
+approached.[4]
+Bladsy 4rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+universiteit stellenbosch
+(d) Verduidelik in breë trekke hoe stamlynontwerp in
+moderne stelsels soos die Intel Core-argitektuur be-
+nader word sodat sowel vinnige as stadige kompo-
+nente geakkommodeer kan word.Explain in broad outline how bus design is ap-
+proached in modern systems like the Intel Core ar-
+chiture so that both fast and slow components can
+be accommodated.[4]
+5. (a) Verduidelik breedvoering hoe die Mic-1 argitektuur
+gepyplyn kan word, met verwysing na die ontwerp
+van die datapad en die kontrolestoor, die gebruik
+van registers, en die oorspronklike subsiklusse.Explain in detail how the Mic-1 architecture can be
+pipelined, with reference to the design of the data
+path and the control store, the use of registers, and
+the original subcycles.[4]
+(b) LNS-afhanklikhede word ook dikwels “ware af-
+hanklikhede” genoem. Motiveer dié karakterisering,
+met verwysing na ander instruksie-afhanklikhede,
+en sê ook wat gedoen kan word om dié ander af-
+hanklikhede te temper.RAW dependencies are also often called “true de-
+pendencies”. Motivate this characterisation, with
+reference to other instruction dependencies, and
+also say what can be done to mitigate these other
+dependencies.[4]
+Bladsy 5rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+universiteit stellenbosch
+(c) Motiveer en bespreek die gebruik van kasgeheue met
+betrekking tot die lokaliteitsbeginsels.Motivate and discuss the use of cache memory with
+respect to the principles of locality.[4]
+(d) Verduidelik kortliks hoe assosiatiewe kasgeheue
+werk.Explain briefly how associative cache memory
+works.[3]
+(e) Een strategie vir statiese takvoorspelling is om terug-
+waartse spronge te neem, maar voorwaartse spronge
+oor te slaan. Met verwysing na kontrolevloei-ele-
+mente in hoëvlaktale, is dit ’n goeie strategie? Moti-
+veer u antwoord.One strategy for static branch prediction is to take all
+backward jumps, but to skip forward jumps. With
+reference to control-flow elements in high-level lan-
+guages, is this a good strategy? Motivate your an-
+swer.[3]
+Bladsy 6rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+universiteit stellenbosch
+6. (a) Bespreek die konsep van fragmentasie met verwy-
+sing na paginering en segmentering.Discuss the concept of fragmentation with refer-
+ence to paging and segmentation.[3]
+(b) Verduidelik kortliks wat versparteling is, en gee ’n
+voorbeeld van omstandighede op ’n rekenaarstelsel
+waaronder dit kan voorkom.Briefly explain what thrashing is, and give an exam-
+ple of circumstances on a computer system under
+which it can occur.[3]
+(c) Omskryf kortliks die bedryf van ’n omskakeling-
+sydelingse buffer.Briefly describe the operation of a translation look-
+aside buffer.[3]
+Bladsy 7rekenaarwetenskap 244
+2022-11-14: semestertoets 2
+(d) Bespreek, vergelyk en evalueer die allokeringstrate-
+gieë verskaf deur fat aan die een kant, en Linux
+inodes aan die ander. U analise moet verwysings na
+lêergrootte, toegangstyd en fragmentering insluit.
+universiteit stellenbosch
+Discuss, compare, and evaluate the allocation strate
+gies provided by fat on the one hand, and Linux
+inodes on the other. Your analysis must include ref-
+erences to file size, access time, and fragmentation.[6]
+Discuss the following statement critically: “There
+are no data types in assembly language.”[3]
+Programmering / Programming
+7. (a) Bespreek die volgende stelling krities: “Daar is geen
+datatipes in saamsteltaal nie.”
+Bladsy 8

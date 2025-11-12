@@ -1,0 +1,340 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+2017-10-24
+Opgestel deur Willem Bester
+Gemodereer deur Cornelia P. Inggs
+3h
+kantoorgebruik / office use:
+Studentenommer / Student number:
+–
+Computer Science is the only discipline in which we view adding a new wing to a building as
+being maintenance.
+—J. Horning
+Instruksies / Instructions
+1. Skryf asseblief netjies en in ink. Indien u met ’n pot-
+lood skryf, mag u nie ná die tyd versoek dat u punte
+heroorweeg word nie.Please write neatly and in ink. If you write with a pen-
+cil, you may not afterwards request a reconsideration
+of your marks.
+2. U mag die keersy van enige en elke bladsy gebruik
+vir rofwerk. Indien u om enige rede antwoorde op ’n
+keersy skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer on
+a reverse, please indicate it clearly as such.
+3. Slegs nie-programmeerbare sakrekenaars word toege-
+laat gedurende die toets.Only non-programmable calculators are allowed for
+the duration of the test.
+4. Dié vraestel bestaan uit 10 vrae op 11 bladsye vir ’n
+totaal van 97 punte. 80 is volpunte.This paper consists of 10 questions on 11 pages for a
+total of 97 marks. 80 is full marks.
+Verklaring / Declaration
+Deur my handtekening in die onderstaande ruimte te plaas,
+bevestig ekBy placing my signature in the space provided, I con-
+firm
+1. dat ek die toetsreëls en -voorskrifte op die agterblad
+gelees het, verstaan en sal gehoorsaam;that I have read and understood, and will abide by the
+test rules and instructions set out on the rear cover;
+2. dat ek daarvan bewus is dat ’n oortreding van ’n that I am aware of that a contravention of a test rule
+toetsreël of -voorskrif daartoe kan lei dat ’n toets on- or instruction may cause a test to be declared null and
+geldig verklaar word, en selfs tot skorsing kan lei; en void, and may even lead to expulsion; and
+3. dat die besonderhede wat ek op hierdie blad verstrek
+het, waar en korrek is.
+that the particulars furnished by me on this page are
+true and correct.
+Handtekening / Signature
+Question:12345678910Total
+Points:575492241916697
+Score:rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Vir elkeen van die volgende vrae, merk die kassie van
+die korrekte antwoord. Indien u dink daar is meer as
+een korrekte antwoord, kies die een wat u as die mees
+korrekte beskou.For each of the following questions, mark the box of
+the correct answer. If you think there is more than
+one correct answer, select the one you view as most
+correct.(a) Watter een van die volgende Intel-instruksies het
+geen invloed op die stapelwyser nie?Which one of the following Intel instructions has no
+effect on the stack pointer?[1]
+(b) Watter een van die volgende kan nie in Mic-1 mi-
+krokode geënkodeer word nie?Which one of the following cannot be encoded in
+Mic-1 microcode?[1]
+(c) Gestel ’n proporsionele allokasieskema word gebruik
+op ’n stelsel met 62 rame en twee prosesse, een van
+10 blaaie, en een van 127. Hoeveel rame sou aan die
+groot proses toegeken word?Suppose a proportional allocation scheme is used on
+a system with 62 frames, and two processes, one of
+10 pages, and one of 127 pages. How many frames
+would be allocated to the larger process?[1]
+For a pipelined risc processor, which kind of depe-
+dency exists in the following sequence of instruc-
+tions?[1]
+A call
+B cmp
+A H = H − MDR
+A 4
+B 31
+C pop
+D ret
+B H = MDR − H
+C 57
+C H = H + MDR
+D 62
+(d) Vir ’n gepyplynde risc-verwerker, watter tipe af-
+hanklikheid bestaan tussen die volgende reeks in-
+struksies?
+R1 = R2 * R3
+R4 = R5 + R1
+A RAW
+B WAR
+D H = MDR + H
+C WAW
+D no dependency / geen afhanklikheid
+(e) Wanneer ’n tweede-kans bladsyvervangingsalgo- When a second-chance page replacement algorithm,
+ritme, met ’n verwysings- en ’n modifieerbis (in dié with a reference and a modify bit (in this order), is
+volgorde), gebruik word, watter een van die volgende used, which one of the following page class should
+bladsyklasse behoort eerste uitgeskop te word?
+be evicted first?
+A (0, 0)
+B (0, 1)
+C (1, 0)
+D (1, 1)
+2. Definieer elkeen van die volgende terme in een sin.
+[1]
+Define each of the following terms in one sentence.
+(a) Busskeefheid.Bus skew.[1]
+(b) Tekenuitbreiding.Sign extension.[1]
+(c) Verenigde kasgeheue.Unified cache memory.[1]
+(d) Registerherbenaming.Register renaming.[1]
+Bladsy 2rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+(e) Interne fragmentasie met betrekking tot geheue-
+toekenning.Internal fragmentation with respect to memory al-
+location.[1]
+(f) Eksterne fragmentasie met betrekking tot geheue-
+toekenning.External fragmentation with respect to memory
+allocation.[1]
+(g) Kopieer-by-skryf.Copy-on-write.[1]
+Consider the ALU circuit diagram in Figure 1. Fill in
+the following table, and show how the ALU’s control
+signals must be set up to perform the given functions.[5]
+3. Beskou die RLE-stroombaandiagram in Figuur 1. Vul
+die volgende tabel in en toon hoe die RLE se beheerseine
+opgestel moet word om die gegewe funksies uit te voer.
+Function
+A+B
+A+B+1
+B−A
+−A
+F0
+F1
+ena
+enb
+inva
+inc
+Figuur 1: Die stroombaandiagram van ’n 1-bis RLE.
+Figure 1: The circuit diagram of a 1-bit ALU.
+4. Teken die stroombaandiagram van ’n twee-toevoer mul-
+tiplekser, en voltooi dan die volgende tabel, waarin u
+aandui hoe om die toevoerwaardes A en B, die elektriese
+grond VGnd en die ekstern-gereguleerde stroombaanla-
+ding VCC te koppel sodat ’n twee-toevoer multiplekser
+die funksies A, AB en A+ B, onderskeidelik, bereken. Die
+kontrolelyn C kies tussen D 0 en D 1 op die standaardma-
+nier.
+Inputs
+D0
+D1
+C
+Bladsy 3
+Draw the circuit diagram of a two-input multiplexer,
+and then, complete the following table, in which
+you show how to wire up the input values A and
+B, the electrical ground VGnd , and the externally
+regulated circuit voltage VCC so that a two-input
+multiplexer computes the functions A, AB, and A+B,
+respectively. The control line C chooses between D 0
+and D 1 in the standard way.
+A
+A+B
+AB
+[4]rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+Berekeninge / Calculations
+5. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.
+[4]
+3, 4, 1, 5, 3, 4, 2, 3, 4, 1, 5, 2
+Langsgelede gebruik / Least-recently-used (LRU)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+3
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.
+Langsgelede gebruik / Least-recently-used (LRU)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+3
+6. Gegee vyf geheuepartisies van grootte (1) 100 K, (2) 500 K,
+(3) 200 K, (4) 300 K, (5) 600 K, (in dié volgorde), hoe sou
+elkeen van die eerste-passing en beste-passing algoritmes
+die plasing van prosesse van 212 K, 417 K, 112 K en 426 K
+(in dié volgorde) behartig? Neem aan dat die partisielys
+as ’n sirkulêre lys aangehou word, wat aanvanklik by die
+212 K-partisie begin. Dit wil sê, die soektog begin telkens
+by die partisie waaruit daar tydens die vorige iterasie
+geheue toegeken is.
+Prosesgrootte / Process size
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+4
+1
+5
+3
+4
+2
+3
+4
+Bladsy 4
+5
+2
+Given five memory partitions of size (1) 100 K,
+(2) 500 K, (3) 200 K, (4) 300 K, (5) 600 K, (in this
+order), how would each of the first-fit and best-fit
+algorithms place processes of 212 K, 417 K, 112 K,
+and 426 K (in this order)? Assume the partition list
+is kept as a circular list, which initially starts at the
+212 K partition. That is to say, the search is started
+every time at the partition from which memory was
+allocated during the previous iteration.
+Partisienommer vir / Partition number for
+eerste-passing / first-fit beste-passing / best-fit
+212 K
+417 K
+112 K
+426 K
+1
+[5]
+[2]rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+Langvrae / Long Questions
+7. (a) Verduidelik kortliks die verskil tussen ’n flip-flop en
+’n wipkring.Briefly explain the difference between a flip-flop and
+a latch.[2]
+(b) Bespreek kortliks die meriete van ’n snelopdragop-
+teller teenoor ’n oordragvooruitskou-opteller.Briefly discuss the relative merits of a ripple carry
+adder and a carry select adder.[3]
+(c) Definieer en bespreek kortliks die meriete van asso-
+siatiewe kasgeheue.Define and briefly discuss the merits of associative
+cache memory.[3]
+Bladsy 5rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+(d) Verduidelik hoe die Mic-1 se N- en Z-bisse bedraad
+is, en hoe hulle betrokke is by vertakking op mi-
+kroinstruksievlak.Explain how the Mic-1’s N and Z bits are wired, and
+how they are involved with branching on the mi-
+croinstruction level.[3]
+(e) Noem en bespreek kortliks twee strategieë om die
+uitvoerspoed van die datapad te vermeerder.Name and briefly discuss two strategies for increas-
+ing the speed of execution of the data path.[3]
+(f) LNS-afhanklikhede word ook dikwels “ware af-
+hanklikhede” genoem. Motiveer dié karakterisering,
+met verwysing na ander instruksie-afhanklikhede.RAW dependencies are also often called “true de-
+pendencies”. Motivate this characterisation, with
+reference to other instruction dependencies.[3]
+Bladsy 6rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+(g) Motiveer en bespreek die gebruik van kasgeheue met
+betrekking tot die lokaliteitsbeginsels.Motivate and discuss the use of cache memory with
+respect to the principles of locality.[3]
+(h) Waarom benodig die gepyplynde Mic-4 verwerker
+vier Geheue Instruksie Registers?Why does the pipelined Mic-4 processor need four
+Memory Instruction Registers?[1]
+(i) Bespreek puntsgewyse wat gebeur wanneer ’n funk- Explain pointwise what happens when a function
+sie volgens die cdecl-roepkonvensie geroep word. is called according to the cdecl calling convention.
+Aanvaar dat die funksie wat geroep word parameters Assume the function beging called (the callee) has
+en plaaslike veranderlikes het. Verwys na die roeper parameters and local variables. Refer to the caller as
+sowel as die geroepte funksie.
+well as the callee.[3]
+Bladsy 7rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+8. (a) Verduidelik volledig wat met aanvraagpaginering
+bedoel word. Hoe verskil dit van of stem dit ooreen
+met die gebruik van kasgeheue?
+universiteit stellenbosch
+Explain fully what is meant by demand paging.
+How is it the same as or different from the use of
+cache memory?[4]
+(b) Verduidelik kortliks wat versparteling is.Briefly explain what thrashing is.[3]
+(c) Omskryf kortliks die bedryf van ’n omskakeling-
+sydelingse buffer.Briefly describe the operation of a translation look-
+aside buffer.[3]
+Bladsy 8rekenaarwetenskap 244
+2017-10-24: semestertoets 2
+universiteit stellenbosch
+(d) Verduidelik waarom Unix-lêerstelsels nie vaste ska-
+kels na gidse toelaat nie.Explain why Unix file systems do not allow hard
+links to directories.[3]
+(e) Bespreek, vergelyk en evalueer die allokasiestrate-
+gieë verskaf deur fat aan die een kant, en Linux
+inodes aan die ander. U analise moet verwysings na
+lêergrootte, toegangstyd en fragmentering insluit.Discuss, compare, and evaluate the allocation strate-
+gies provided by fat on the one hand, and Linux
+inodes on the other. Your analysis must include ref-
+erences to file size, access time, and fragmentation.[6]
+Bladsy 9

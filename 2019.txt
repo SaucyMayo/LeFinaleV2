@@ -1,0 +1,286 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+2019-11-04
+Opgestel deur Willem Bester
+Gemodereer deur Willem Visser
+3h
+kantoorgebruik / office use:
+Studentenommer / Student number:
+–
+He who runs an av-rage [sic.] pace, runs alone throughout the race. [I know I’m teaching at the
+right pace when I please no one: half the students say I’m going too slow, half too fast.]
+—Richard E. Pattis
+Voorskrifte / Instructions
+1. Skryf asseblief netjies en in ink. Indien u met ’n pot-
+lood skryf, mag u nie ná die tyd versoek dat u punte
+heroorweeg word nie.Please write neatly and in ink. If you write with a pen-
+cil, you may not afterwards request a reconsideration
+of your marks.
+2. U mag die keersy van enige en elke bladsy gebruik
+vir rofwerk. Indien u om enige rede antwoorde op ’n
+keersy skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer on
+a reverse, please indicate it clearly as such.
+3. Slegs nie-programmeerbare sakrekenaars word toege-
+laat gedurende die toets.Only non-programmable calculators are allowed for
+the duration of the test.
+4. Dié vraestel bestaan uit 7 vrae op 10 bladsye vir ’n
+totaal van 89 punte. 80 is volpunte.This paper consists of 7 questions on 10 pages for a
+total of 89 marks. 80 is full marks.
+Verklaring / Declaration
+Deur my handtekening in die onderstaande ruimte te plaas,
+bevestig ekBy placing my signature in the space provided, I con-
+firm
+1. dat ek die toetsreëls en -voorskrifte op hierdie bladsy
+en op die agterblad gelees het, verstaan en sal gehoor-
+saam;that I have read, understand, and will abide by the test
+rules and instructions set out on this page and on the
+rear cover;
+2. dat ek daarvan bewus is dat ’n oortreding van ’n that I am aware of that a contravention of a test rule
+toetsreël of -voorskrif daartoe kan lei dat ’n toets on- or instruction may cause a test to be declared null and
+geldig verklaar word, en selfs tot skorsing kan lei; en void, and may even lead to expulsion; and
+3. dat die besonderhede wat ek op hierdie blad verstrek
+het, waar en korrek is.
+that the particulars furnished by me on this page are
+true and correct.
+Handtekening / Signature
+Question:1234567Total
+Points:579242016889
+Score:rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Vir elkeen van die volgende vrae, merk die kassie van
+die korrekte antwoord. Indien u dink daar is meer as een
+korrekte antwoord, kies die een wat u as die mees korrekte
+beskou.For each of the following questions, mark the box of
+the correct answer. If you think there is more than
+one correct answer, select the one you view as most
+correct.(a) Watter een van die volgende Intel-instruksies het
+geen invloed op die stapelwyser nie?Which one of the following Intel instructions has no
+effect on the stack pointer?[1]
+Which one of the following cannot be encoded in
+Mic-1 microcode?[1]
+(c) Gestel ’n proporsionele allokeringskema word ge- Suppose a proportional allocation scheme is used on
+bruik op ’n stelsel met 62 rame en twee prosesse, een a system with 62 frames, and two processes, one of
+van 10 blaaie, en een van 127. Hoeveel rame sou aan 10 pages, and one of 127 pages. How many frames
+die groot proses toegeken word?
+would be allocated to the larger process?[1]
+A call
+B cmp
+C pop
+D ret
+(b) Watter een van die volgende kan nie in Mic-1 mi-
+krokode geënkodeer word nie?
+A H = H − MDR
+A 4
+B 31
+B H = MDR − H
+C 57
+C H = H + MDR
+D 62
+(d) Vir ’n gepyplynde risc-verwerker, watter tipe af-
+hanklikheid bestaan tussen die volgende reeks in-
+struksies?
+R1 = R2 * R3
+R4 = R5 + R1
+A RAW
+B WAR
+D H = MDR + H
+C WAW
+For a pipelined risc processor, which kind of depe-
+dency exists in the following sequence of instruc-
+tions?
+D no dependency / geen afhanklikheid
+(e) Wanneer ’n tweede-kans bladsyvervangingsalgo- When a second-chance page replacement algorithm,
+ritme, met ’n verwysings- en ’n modifieerbis (in dié with a reference and a modify bit (in this order), is
+volgorde), gebruik word, watter een van die volgende used, which one of the following page class should
+bladsyklasse behoort eerste uitgeskop te word?
+be evicted first?
+A (0, 0)
+B (0, 1)
+C (1, 0)
+[1]
+D (1, 1)
+2. Definieer elkeen van die volgende terme in een sin.
+[1]
+Define each of the following terms in one sentence.
+(a) Busskeefheid.Bus skew.[1]
+(b) Tekenuitbreiding.Sign extension.[1]
+(c) Verenigde kasgeheue.Unified cache memory.[1]
+(d) Registerherbenaming.Register renaming.[1]
+Bladsy 2rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+(e) Interne fragmentasie met betrekking tot geheue-
+toekenning.Internal fragmentation with respect to memory
+allocation.[1]
+(f) Eksterne fragmentasie met betrekking tot geheue-
+toekenning.External fragmentation with respect to memory
+allocation.[1]
+(g) Kopieer-by-skryf.Copy-on-write.[1]
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.[4]
+Berekeninge / Calculations
+3. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+3, 4, 1, 5, 3, 4, 2, 3, 4, 1, 5, 2
+Langsgelede gebruik / Least-recently-used (LRU)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+3
+Eerste-in, eerste-uit / First-in, first-out (FIFO)
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+Langsgelede gebruik / Least-recently-used (LRU)Eerste-in, eerste-uit / First-in, first-out (FIFO)
+3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+3
+Bladsy 3
+4
+1
+5
+3
+4
+2
+3
+4
+1
+5
+2
+[5]rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+Langvrae / Long Questions
+4. (a) Beskryf puntsgewys wat gedurende die vier subsi-
+klusse van die Mic-1 mikroargitektuur se datapadsi-
+klus gebeur.
+Describe pointwise what happens during the four
+subcycles of the Mic-1 microarchitecture’s data path
+cycle.[4]
+(b) Die beheergeheue van die Mic-1 bevat twee ver- The control store of the Mic-1 contains two offsets,
+plasings, T en F, waarheen ’n mikroinstruksie kan T and F, to which a micro-operation can branch,
+spring, afhangende van of die N- of Z-wipkring 1 depending on whether the N or Z latch contains
+(spring na T) of 0 (spring na F) bevat. Iemand stel 1 (branch to T) or 0 (branch to F). Someone now
+nou voor, aangesien die eerste mikroinstruksie van T suggests that, since the first micro-operation at T
+dieselfde as die eerste mikroinstruksie van die goto- is exactly the same as the first micro-operation for
+instruksie is, dat alle spronge bloot na óf goto of F the goto instruction, all branching instructions can
+in plaas van óf T of F kan gaan. Wat dink u van dié simply branch to either goto or F instead of T or F.
+idee?
+What do you think of this idea?[3]
+Bladsy 4rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+(c) Noem en bespreek kortliks twee strategieë om die
+uitvoerspoed van die datapad te vermeerder.Name and briefly discuss two strategies for increas-
+ing the speed of execution of the data path.[4]
+(d) LNS-afhanklikhede word ook dikwels “ware af-
+hanklikhede” genoem. Motiveer dié karakterisering,
+met verwysing na ander instruksie-afhanklikhede,
+en sê ook wat gedoen kan word om dié ander af-
+hanklikhede te temper.RAW dependencies are also often called “true de-
+pendencies”. Motivate this characterisation, with
+reference to other instruction dependencies, and
+also say what can be done to mitigate these other
+dependencies.[4]
+Bladsy 5rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+(e) Motiveer en bespreek die gebruik van kasgeheue met
+betrekking tot die lokaliteitsbeginsels.Motivate and discuss the use of cache memory with
+respect to the principles of locality.[3]
+(f) Definieer en bespreek kortliks die meriete van asso-
+siatiewe kasgeheue.Define and briefly discuss the merits of associative
+cache memory.[3]
+(g) Een strategie vir statiese takvoorspelling is om terug-
+waartse spronge te neem, maar voorwaartse spronge
+oor te slaan. Met verwysing na kontrolevloei-ele-
+mente in hoëvlaktale, is dit ’n goeie strategie? Moti-
+veer u antwoord.One strategy for static branch prediction is to take all
+backward jumps, but to skip forward jumps. With
+reference to control-flow elements in high-level lan-
+guages, is this a good strategy? Motivate your an-
+swer.[3]
+Bladsy 6rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+5. (a) Verduidelik kortliks die konseptuele verskille tus-
+sen segmentering en paginering. Noem ook hoe,
+vanuit die programmeerder se oogpunt, segmente-
+ringsfoute van pagineringsfoute verskil.Briefly explain the conceptual differences between
+segmentation and paging. Also mention how, from
+the programmer’s perspective, segmentation faults
+differ from page faults.[4]
+(b) Verduidelik volledig wat met aanvraag-paginering
+bedoel word. Hoe verskil dit van of stem dit ooreen
+met die gebruik van kasgeheue?Fully explain what is meant by demand paging.
+How is it the same as or different from the use of
+cache memory?[3]
+(c) Verduidelik kortliks wat versparteling is, en gee ’n
+voorbeeld van omstandighede op ’n rekenaarstelsel
+waaronder dit kan voorkom.Briefly explain what thrashing is, and give an exam-
+ple of circumstances on a computer system under
+which it can occur.[3]
+Bladsy 7rekenaarwetenskap 244
+2019-11-04: semestertoets 2
+universiteit stellenbosch
+(d) Omskryf kortliks die bedryf van ’n omskakeling-
+sydelingse buffer.Briefly describe the operation of a translation look-
+aside buffer.[3]
+(e) Verduidelik waarom Unix-lêerstelsels nie vaste ska-
+kels na gidse toelaat nie.Explain why Unix file systems do not allow hard
+links to directories.[3]
+(f) Watter strategie word deur tipiese Unix-lêerstelsels
+gebruik om te verseker dat ’n indeksblok ’n groot
+omvang van lêergroottes en vinnige toegang toelaat,
+maar self nie te veel ruimte in beslag neem nie?Which strategy is used by a typical Unix file system
+to ensure that an index block allows a large range of
+file sizes and rapid access, but does not occupy too
+much space itself?[4]
+Bladsy 8

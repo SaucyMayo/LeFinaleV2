@@ -1,0 +1,328 @@
+Universiteit van Stellenbosch
+Departement Wiskundige Wetenskappe
+Afdeling Rekenaarwetenskap
+University of Stellenbosch
+Department of Mathematical Sciences
+Computer Science Division
+Rekenaarwetenskap 244 / Computer Science 244
+Semestertoets 2 / Semester Test 2
+8 November 2014
+Opgestel deur Willem Bester
+Gemodereer deur Cornelia P. Inggs
+3h
+Naam en van / Name and surname
+Studentenommer / Student number
+Handtekening / Signature
+Great software, likewise, requires a fanatical devotion to beauty. If you look inside good
+software, you find that parts that no one is ever supposed to see are beautiful too. When
+it comes to code I behave in a way that would make me eligible for prescription drugs if I
+approached everyday life the same way. It drives me crazy to see code that’s badly indented,
+or that uses ugly variable names.
+— Paul Graham, Hackers & Painters, p. 29
+Instruksies / Instructions
+1. Vul u besonderhede volledig in die velde hierbo in. Met u
+handtekening verklaar u dat u die volgende reëls gehoor-
+saam het en dat die besonderhede wat u op dié bladsy
+verskaf het, korrek is.Complete your particulars in the fields above. By
+your signature you declare that abided by the follow-
+ing rules and that the particulars you have supplied
+on this page are correct.
+2. Hierdie is ’n toeboektoets. ’n Keuse uit die Intel-program-
+meringshandleiding is as apart beskikbaar.This is an closed-book test. A selection from the
+Intel programming manual is available separately.
+3. Indien u ’n selfoon het, skakel dit asseblief af en laat dit
+op die lessenaar voor in die toetslokaal.If you have a cellphone, please switch if off and place
+it on the desk at the front of the test venue.
+4. Skryf asseblief netjies en met ink. Indien u met potlood
+skryf, mag u nie ná die tyd u punte bevraagteken nie.Please write neatly and in ink. If you write in pencil,
+you may not query your marks afterwards.
+5. U mag die keersy van enige en elke bladsy gebruik vir
+rofwerk. Indien u om enige rede antwoorde op ’n keersy
+skryf, dui dit asseblief duidelik so aan.You may use the reverse of each and every page for
+scribbling. If, for any reason, you write an answer
+on a reverse, please indicate it clearly as such.
+6. Slegs nie-programmeerbare sakrekenaars word toegelaat.Only non-programmable calculators are allowed.
+7. U mag nie die krammetjie van die vraestel verwyder nie.
+Indien u die vraestel inhandig met ’n bladsy verwyder, sal
+nul aan u toegeken word.You may not remove the staple from the paper. If
+you submit the paper with a page removed, you will
+receive zero.
+8. Dié vraestel bestaan uit 11 vrae op 9 bladsye vir ’n totaal
+van 88 punte. 80 is volpunte.This question paper consists of 11 questions on 9
+pages for a total of 88 marks. 80 is full marks.
+Question:1234567891011Total
+Points:1282918564106888
+Score:rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+universiteit stellenbosch
+Kortvrae / Short Questions
+1. Defineer elkeen van die volgende terme in een sin.
+Define each of the following terms in one sentence.
+(a) Busskeefheid.Bus skew.
+(b) ’n Kantgesnellerde digitale stroombaan.An edge triggered digital circuit.
+(c) Tekenuitbreiding.Sign extension.
+(d) Assosiatiewe kasgeheue.Associative cache memory.
+(e) Deurskryf met betrekking tot kasgeheue.Write through with respect to cache memory.
+(f) Inleesskryf met betrekking tot kasgeheue.Write allocate with respect to cache memory.
+(g) Interne fragmentasie met betrekking tot geheue-
+toekenning.Internal fragmentation with respect to memory al-
+location.
+(h) Eksterne fragmentasie met betrekking tot geheue-
+toekenning.External fragmentation with respect to memory
+allocation.
+(i) Verplaasbare kode.Relocatable code.
+(j) Versparteling.Thrashing.
+(k) Sekwensiële toegang tot ’n lêer.Sequential access to a file.
+Bladsy 2
+[12]rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+(l) ’n Absolute padnaam.
+universiteit stellenbosch
+An absolute path name.
+2. (a) Hoeveel bisse wyd is die segmentregisters op die
+Intel IA-32 argitektuur?How many bits wide are the segment registers on
+the Intel IA-32 architecture?[1]
+(b) Hoe kan die N-bis van die Mic-1 se Rekenkunde
+Logika Eenheid (RLE) bedraad word sodat dit 1 is
+as die RLE-resultaat negatief is, en 0 andersins?How can the N bit of the Mic-1’s Arithmetic Logic
+Unit (ALU) be wired so that it is 1 if the result of the
+ALU is negative, and 0 otherwise?[1]
+(c) Hoe kan die Z-bis van die Mic-1 se RLE bedraad
+word sodat dit 1 is as die RLE-resultaat nul is, en 0
+andersins?How can the Z bit of the Mic-1’s ALU be wired so
+that it is 1 if the result of the ALU is zero, and 0
+otherwise?[1]
+(d) Vir welke opstelling is ’n geklokte SR-wipkring in ’n
+teenstrydige toestand?For what setup is a clocked SR latch in an inconsis-
+tent state?[1]
+(e) Wat behels kopieer-by-skryf vir geheuebestuur ty-
+dens prosesbegin?What does copy-on-write entail for memory man-
+agement during process start?[2]
+(f) Waarom benodig die Mic-4 vier Geheue Instruksie
+Registers?Why does the Mic-4 need four Memory Instruction
+Registers?[2]
+Bladsy 3rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+universiteit stellenbosch
+Berekeninge / Calculations
+3. Gegee vyf geheuepartisies van grootte (1) 100 K, (2) 500 K,
+(3) 200 K, (4) 300 K, (5) 600 K, (in orde), hoe sou elkeen
+van die eerste-passing en beste-passing algoritmes die
+plasing van prosesse van 212 K, 417 K, 112 K en 426 K (in
+dié orde) behartig?
+Prosesgrootte / Process size
+Given five memory partitions of size (1) 100 K,
+(2) 500 K, (3) 200 K, (4) 300 K, (5) 600 K, (in order),
+how would each of the first-fit and best-fit algorithms
+place processes of 212 K, 417 K, 112 K, and 426 K (in
+this order)?
+[2]
+Partisienommer vir / Partition number for
+eerste-passing / first-fit beste-passing / best-fit
+212 K
+417 K
+112 K
+426 K
+4. (a) Beskou die ry van bladsyverwysings hieronder. Ge-
+gee dat daar drie rame is—en onthou, hulle almal is
+aanvanklik leeg—hoeveel bladsyfoute vind plaas on-
+der die gespesifiseerde vervangingstrategieë? Toon
+u “bewerkings” in die kassies voorsien.
+Consider the sequence of page references below. As-
+suming three frames—and remembering that all
+frames are initially empty—how many page faults oc-
+cur for the specified replacement algorithms? Show
+your “calculations” in the boxes provided.
+[4]
+1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
+i. Langsgelede gebruik / Least-recently-used (LRU).
+1
+2
+3
+4
+1
+2
+5
+1
+2
+3
+45
+45
+ii. Eerste-in, eerste-uit / First-in, first-out (FIFO).
+1
+2
+3
+4
+1
+2
+5
+1
+2
+3
+(b) Herhaal die berekening vir die vorige vraag, maar
+gebruik nou vier rame. Definieer en illustreer daarná
+Belady se anomalie aan die hand van u berekeninge.Repeat the calculations of the previous question, but
+now use four frames. Then, define and illustrate Be-
+lady’s anomaly with reference to your calculations.
+Langsgelede gebruik / Least-recently-used (LRU)Eerste-in, eerste-uit / First-in, first-out (FIFO)
+1
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
+1
+Bladsy 4
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
+[5]rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+universiteit stellenbosch
+Langvrae / Long Questions
+5. (a) Bespreek kortliks die relatiewe verdienste van sin-
+chrone stamlyne versus asinchrone stamlyne.Briefly discuss the relative merits of synchronous
+buses versus asynchronous buses.[4]
+(b) Bespreek kortliks die verskille tussen statiese en
+dinamiese Willekeurige Toegangsgeheue. Noem
+spesifiek wat die hardeware-implementasies behels.Briefly discuss the differences between static and
+dynamic RAM. Specifically say what the hardware
+implementations entail.[4]
+Bladsy 5rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+universiteit stellenbosch
+(c) Die beheergeheue van die Mic-1 bevat twee ver- The control store of the Mic-1 contains two offsets,
+plasings, T en F, waarheen ’n mikroinstruksie kan T and F, to which a micro-operation can branch,
+spring, afhangende van of die N- of Z-wipkring 1 depending on whether the N or Z latch contains 1
+(spring na T) of 0 (spring na F) bevat. ’n Ingenieur (branch to T) or 0 (branch to F). An engineer now
+stel nou voor, aangesien die eerste mikroinstruksie suggests that, since the first micro-operation at T
+van T dieselfde as die eerste mikroinstruksie van die is exactly the same as the first micro-operation for
+goto-instruksie is, dat alle spronge bloot na óf goto the goto instruction, all branching instructions can
+of F in plaas van óf T of F kan gaan. Wat dink u van simply branch to either goto or F instead of T or F.
+dié idee?
+What do you think of this idea?[3]
+(d) Noem en bespreek twee strategieë om die uitvoer-
+spoed van die datapad te vermeerder.[4]
+Bladsy 6
+Name and discuss two strategies for increasing the
+speed of execution of the data path.rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+(e) Vir ’n gepyplynde risc-verwerker, watter tipe af-
+hanklikheid bestaan tussen die volgende reeks in-
+struksies?
+universiteit stellenbosch
+For a pipelined risc processor, which kind of depe-
+dency exists in the following sequence of instruc-
+tions?[1]
+For a pipelined risc processor, which kind of depe-
+dency exists in the following sequence of instruc-
+tions? What technique can be used in hardware to
+solve this problem?[2]
+6. (a) Bespreek kortliks die verskil tussen segmentering
+en paginering.Briefly discuss the difference betwen segmentation
+and paging.[2]
+(b) Omskryf kortliks die bedryf van ’n omskakeling-
+sydelingse buffer.Briefly describe the operation of a translation look-
+aside buffer.[3]
+R1 = R2 * R3
+R4 = R5 + R1
+(f) Vir ’n gepyplynde risc-verwerker, watter tipe af-
+hanklikheid bestaan tussen die volgende reeks in-
+struksies? Watter tegniek kan gebruik word om dié
+probleem op te los in hardeware?
+R4 = R5 + R1
+R1 = R2 * R3
+Bladsy 7rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+universiteit stellenbosch
+7. (a) Watter strategie word deur tipiese Unix-lêerstelsels
+gebruik om te verseker dat ’n indeksblok ’n groot
+omvang van lêergroottes en vinnige toegang toelaat,
+maar self nie te veel ruimte in beslag neem nie?Which strategy is used by a typical Unix file system
+to ensure that an index block allows a large range of
+file sizes and rapid access, but does not occupy too
+much space itself?[3]
+(b) Bespreek kortliks die verskil tussen ’n vaste skakel
+en ’n simboliese skakel op ’n tipiese Unix-lêerstelsel.
+Skenk spesifiek aandag aan watter implikasies dit vir
+skakels tot gidse inhou.Briefly discuss the difference between a hard link
+and a symbolic link on a typical Unix file system.
+Pay particular attention to the implications for link-
+ing to a directory.[3]
+Explain pointwise what happens when a function
+is called according to the cdecl calling convention.
+Assume the function has parameters and local vari-
+ables. Refer to the caller as well as the callee.[4]
+Saamsteltaal / Assembly Language
+8. Bespreek puntsgewyse wat gebeur wanneer ’n funksie
+volgens die cdecl-roepkonvensie geroep word. Aanvaar
+dat die funksie parameters en plaaslike veranderlikes het.
+Verwys na die roeper sowel as die geroepte funksie.
+Bladsy 8rekenaarwetenskap 244
+2014-11-08: semestertoets 2
+9. Verskaf die masjienkode vir die Intel-saamsteltaalinstruk-
+sies hieronder. Skryf u antwoorde in die kassies voorsien
+en pas elke instruksiekomponent by sy beskrywing. In-
+dien ’n betrokke instruksie nie ’n sekere komponent het
+nie, laat daardie kassie oop. Gebruik heksadesimale nota-
+sie in u antwoorde en neem aan dat die verwerker in 32-bis
+modus bedryf word wanneer die instruksies uitgevoer gaan
+word.
+(a) cmpbx, 0x00
+(b) imuledx, ecx
+(c) cmp[edi+esi*4+0x1741]
+(a)
+universiteit stellenbosch
+Provide the machine code for the Intel assembly lan-
+guage instructions below. Write your answers in the
+boxes provided, matching each instruction compo-
+nent with its description. If a particular instruction
+does not have a certain component, leave that box
+open. Use hexadecimal notation in your answers,
+and assume that the processor operates in 32-bit mode
+when the instructions are to be executed.
+(b)
+[10]
+(c)
+Prefixes
+Opcode
+ModR/M
+SIB
+Displacement
+Immediate
+10. Memory view.
+[6]
+Alle goeie dinge kom tot ’n einde / All good things must end
+11. (a) Sekere temas is dig verweef in die struktuur van dié
+kursus. Ons het hulle weer en weer aangetref. Noem
+en bespreek een wat u dink die mensdom op sy beste
+toon, en nog een wat ’n minder rooskleurige prentjie
+oor die toekoms skets. (En ja, indien u uiteindelik
+geleer het wat harde werk is, is ek bly, maar nee, dis nie
+’n kursustema nie.)Certain themes are woven into the very fabric
+of this course. We encountered them again and
+again. Name and discuss one you think shows
+mankind at its best, and another that paints a less
+rosy picture of the future. (And yes, if you finally
+learned what hard work is, I am happy, but no, it
+is not a course theme.)[6]
+(b) ’n Ingenieur praat in die woud. Daar is geen rekenaar-
+wetenskaplike om hom te hoor nie. Is die ingenieur
+steeds verkeerd?An engineer speaks in the woods. There is no
+computer scientist to hear him. Is the engineer
+still wrong?[2]
+Bladsy 9
