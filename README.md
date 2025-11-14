@@ -8,6 +8,19 @@ I've analyzed **12 past papers** (2011-2022) from Computer Science 244, focusing
 
 ## 🚨 EMERGENCY CRAMMING (4 Hours or Less)
 
+### **MCQ_DEFINITIONS_CHEAT_SHEET.md** 🎯 NEW! MOST EFFICIENT STUDY TOOL
+**What it contains:**
+- **7 MCQs sorted by frequency** (top question appeared 8 times!)
+- All verified answers from official memos
+- **17 essential definitions** from textbook with examples
+- **9 miscellaneous topics** (ALU, page replacement, FAT vs inodes, etc.)
+- Complete exam strategy and pre-exam checklist
+- 662 lines of laser-focused content
+
+**When to use:** Perfect for targeted MCQ memorization and definition practice - focuses ONLY on what appears most frequently!
+
+---
+
 ### **ULTIMATE_CRAM_SHEET.md** ⚡ START HERE IF PRESSED FOR TIME
 **What it contains:**
 - Ultra-condensed 1-2 page summary of essentials
