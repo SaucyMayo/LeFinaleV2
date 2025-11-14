@@ -6,7 +6,35 @@ I've analyzed **12 past papers** (2011-2022) from Computer Science 244, focusing
 
 ---
 
-## 📁 Study Materials
+## 🚨 EMERGENCY CRAMMING (4 Hours or Less)
+
+### **ULTIMATE_CRAM_SHEET.md** ⚡ START HERE IF PRESSED FOR TIME
+**What it contains:**
+- Ultra-condensed 1-2 page summary of essentials
+- Top 10 must-know definitions (1 mark each = free points!)
+- Instant MCQ answers you can memorize
+- ALU control signals table (4 marks)
+- Page replacement quick method
+- 4-hour study plan optimized for 50%+ score
+- Common mistakes to avoid
+
+**When to use:** When you have 4 hours or less to study and need to target 50% pass mark
+
+---
+
+### **MCQ_PRACTICE_QUIZ.md** 💪 PRACTICE MAKES PERFECT
+**What it contains:**
+- 50 multiple choice questions covering all high-yield topics
+- Full answer key with explanations
+- Scoring guide to assess readiness
+- Topics to review based on mistakes
+- MCQ strategy tips
+
+**When to use:** Test yourself repeatedly until you score 40+/50 consistently
+
+---
+
+## 📁 Comprehensive Study Materials
 
 ### 1. **TEST_PREPARATION_TIER_LIST.md** ⭐ START HERE
 **What it contains:**
@@ -127,15 +155,22 @@ Based on frequency and recency in Willem's papers:
 
 ---
 
-## ⚡ Last-Hour Emergency Review
+## ⚡ Last-Minute Emergency Review
 
-If you only have 1 hour before the test:
+### If you have 4 hours:
+**Use ULTIMATE_CRAM_SHEET.md** + **MCQ_PRACTICE_QUIZ.md**
+- Hour 1: Memorize definitions + do 30 MCQs
+- Hour 2: Practice page replacement (5 LRU + 5 FIFO problems)
+- Hour 3: ALU table + Mic-1 review
+- Hour 4: FAT vs inodes + final review
 
-1. **Read QUICK_REFERENCE_CHEAT_SHEET.md** (15 minutes)
-2. **Practice one page replacement problem** (10 minutes)
-3. **Review the ALU control signal table** (5 minutes)
-4. **Memorize the 10 one-sentence definitions** (15 minutes)
-5. **Review FAT vs inodes comparison** (10 minutes)
+### If you only have 1 hour before the test:
+
+1. **Read ULTIMATE_CRAM_SHEET.md** (20 minutes)
+2. **Do quick MCQ_PRACTICE_QUIZ.md scan** (10 minutes)
+3. **Practice one page replacement problem** (10 minutes)
+4. **Review the ALU control signal table** (5 minutes)
+5. **Memorize the 10 one-sentence definitions** (10 minutes)
 6. **Calm breathing and confidence building** (5 minutes)
 
 ---
